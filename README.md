@@ -50,15 +50,23 @@ if "pipenv install xxx" not working for some packages, you may need run "pip ins
 
 Run the following from your terminal (if windows, if linux change SET for $ export)
 ```
-SET PORT=5432
+SET PORT=5000
 SET FLASK_ENV=development
 SET JWT_SECRET_KEY=LongLongAgoThereIsASecret
 SET DATABASE_URL=postgresql://postgres:test@localhost:5432/temp_project
 SET DATABASE_TEST_URL=postgresql://postgres:test@localhost:5432/temp_project
+SET SQLALCHEMY_TRACK_MODIFICATIONS=False
 ```
 
 or you can put all in ".env" file under src
-
+```
+PORT=5000
+FLASK_ENV=development
+JWT_SECRET_KEY=LongLongAgoThereIsASecret
+DATABASE_URL=postgresql://postgres:test@localhost:5432/temp_project
+DATABASE_TEST_URL=postgresql://postgres:test@localhost:5432/temp_project
+SQLALCHEMY_TRACK_MODIFICATIONS=False
+```
 --------------------------------------
 
 ## 3. Run unit test
