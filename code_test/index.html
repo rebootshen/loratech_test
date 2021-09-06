@@ -1,0 +1,378 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        video {
+            /*position: absolute;
+        top: 0;
+        left: 0;*/
+            /*height: 100%;
+        width: 100%;*/
+            transition: opacity 400ms ease 0ms;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        div.outer {
+            color: black background:white;
+            transition: 4s;
+
+        }
+
+        header {
+            width: 980px;
+            margin: 15px auto 0;
+            height: 60px;
+        }
+
+        div.video {
+            margin: 100px 100px 100px 100px;
+        }
+
+        .green_to_yellow {
+            animation: g2y 4s both;
+            /*infinite;*/
+        }
+
+        .yellow_to_red {
+            animation: y2r 4s both;
+            /*infinite;*/
+        }
+
+        .red_to_green {
+            animation: r2g 4s both;
+            /*infinite;*/
+        }
+
+        @keyframes change {
+            0% {
+                background-color: #66e616;
+            }
+
+            25% {
+                background-color: #556bd8;
+            }
+
+            50% {
+                background-color: #e40707;
+            }
+
+            75% {
+                background-color: #5cb85c;
+            }
+
+            100% {
+                background-color: #e7e97d;
+            }
+        }
+
+        @keyframes g2y {
+            0% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: yellow;
+            }
+        }
+
+
+        @keyframes y2r {
+            0% {
+                background-color: yellow;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        @keyframes r2g {
+            0% {
+                background-color: red;
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+
+        .center {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            -ms-transform: translate(-50%);
+            /* for IE 9 */
+            -webkit-transform: translate(-50%);
+            /* for Safari */
+
+            /* optional size in px or %: 
+        width: 100px;
+        height: 100px;*/
+            /*margin: 10px 10px 10px 10px;*/
+        }
+
+        .block {
+            font-size: 15vh;
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+            line-height: 100%;
+            width: 30%;
+            height: 200px;
+            display: inline-block;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+        }
+
+        #block1 {
+            background-color: green;
+        }
+
+        #block2 {
+            background-color: yellow;
+        }
+
+        #block3 {
+            background-color: red;
+        }
+
+        @media screen and (max-width: 500px) {
+
+            #block1,
+            #block2,
+            #block3 {
+                width: 100%;
+            }
+        }
+
+
+        .button {
+            border-radius: 4px;
+            background-color: #00aa6d;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            /*background-color: #83EE94;*/
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+
+
+        .active,
+        .button:hover {
+            background-color: #b0f4bc
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+
+        .button2 {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #D5131F;
+            /*#f4511e;*/
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .active2,
+        .button2:hover {
+            background-color: #850107
+        }
+
+
+        .button2:active {
+            background-color: #850107;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+
+        @media all and (max-width:30em) {
+
+            .button,
+            .button2 {
+                display: block;
+                margin: 0.4em auto;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="outer">
+        <div id="block1" class="block">
+            1
+        </div>
+        <div id="block2" class="block">
+            2
+        </div>
+        <div id="block3" class="block">
+            3
+        </div>
+
+    </div>
+
+    <div class="center">
+        <button id="start" class="button" style="vertical-align:middle"><span>Start </span></button>
+        <button id="stop" class="button2"><i class="fa fa-trash"></i></button>
+    </div>
+
+    <!--div class="video">
+    <video  width="100%"  controls>
+        <source src="javascript.mp4" type="video/mp4">
+        <source src="javascript.ogg" type="video/ogg">
+      Your browser does not support the video tag. <-!-- Text to be shown incase browser doesnt support html5 ->
+      </video>
+
+   </div-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        /* BEST VIEW in FULL MODE (CTRL + 8) */
+        $(function () {
+            var cw = $('.block').width();
+            $('.block').css({ 'height': cw + 'px' });
+            $('.block').css({ 'line-height': cw + 'px' });
+            $('.block').css({ 'font-size': cw + 'px' });
+
+            window.addEventListener('resize', function () { 
+                "use strict";
+                window.location.reload(); 
+            });
+
+            function Reset() {
+                var y1 = document.getElementById("block1");
+                var y2 = document.getElementById("block2");
+                var y3 = document.getElementById("block3");
+                y1.innerHTML = '1';
+                y2.innerHTML = '2';
+                y3.innerHTML = '3';
+                $("#block1").removeClass().addClass("block");
+                $("#block2").removeClass().addClass("block");
+                $("#block3").removeClass().addClass("block");
+
+                clearInterval(refreshIntervalId);
+            }
+
+            function UpdateBlock() {
+                //setTimeout(function(){ 
+                //    console.log("Ready")
+                //}, 3000);
+                var y1 = document.getElementById("block1");
+                var y2 = document.getElementById("block2");
+                var y3 = document.getElementById("block3");
+                console.log(y1.innerHTML.indexOf('1'))
+                if (y1.innerHTML.indexOf('1') != -1) {
+                    y1.innerHTML = '2';
+                    y2.innerHTML = '3';
+                    y3.innerHTML = '1';
+                    $("#block1").removeClass().addClass("block green_to_yellow");
+                    $("#block2").removeClass().addClass("block yellow_to_red");
+                    $("#block3").removeClass().addClass("block red_to_green");
+                } else if (y1.innerHTML.indexOf('2') != -1) {
+                    y1.innerHTML = '3';
+                    y2.innerHTML = '1';
+                    y3.innerHTML = '2';
+                    $("#block3").removeClass().addClass("block green_to_yellow");
+                    $("#block1").removeClass().addClass("block yellow_to_red");
+                    $("#block2").removeClass().addClass("block red_to_green");
+                } else if (y1.innerHTML.indexOf('3') != -1) {
+                    y1.innerHTML = '1';
+                    y2.innerHTML = '2';
+                    y3.innerHTML = '3';
+                    $("#block2").removeClass().addClass("block green_to_yellow");
+                    $("#block3").removeClass().addClass("block yellow_to_red");
+                    $("#block1").removeClass().addClass("block red_to_green");
+                }
+
+
+
+            }
+
+            function LoopUpdate() {
+
+                refreshIntervalId = setInterval(function () {
+                    UpdateBlock()
+                }, 5000);
+            }
+
+            $("#start").click(function () {
+                //$(this).toggleClass('active');
+                if ($(this).hasClass('active')) {
+
+                } else {
+                    $(this).addClass('active')
+                    $("#stop").removeClass("active2")
+                    LoopUpdate();
+                }
+
+            });
+
+            $("#stop").click(function () {
+                //$(this).toggleClass('active2');
+                if ($(this).hasClass('active2')) {
+
+                } else {
+                    $(this).addClass('active2')
+                    $("#start").removeClass("active")
+                    Reset();
+                }
+
+            });
+
+
+
+        });
+
+    </script>
+</body>
+
+</html>
