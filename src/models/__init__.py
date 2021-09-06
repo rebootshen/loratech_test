@@ -4,3 +4,6 @@ from flask_bcrypt import Bcrypt
 # initialize our db
 db = SQLAlchemy()
 bcrypt = Bcrypt()
+
+from .PriceModel import PriceModel, PriceSchema
+from .UserModel import UserModel, UserSchema

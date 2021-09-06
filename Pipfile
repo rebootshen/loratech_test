@@ -21,6 +21,7 @@ manage = "*"
 #dotenv = "*"
 pyyaml = "*"
 flasgger = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8.3"

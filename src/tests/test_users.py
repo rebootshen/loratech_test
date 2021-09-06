@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from ..app import create_app
+from ..app import create_app, db
 
 import logging
 logger = logging.getLogger('file')
@@ -22,9 +22,9 @@ class UsersTest(unittest.TestCase):
       'password': 'passw0rd!1'
     }
 
-    #with self.app.app_context():
+    with self.app.app_context():
       # create all tables
-      #db.create_all()
+      db.create_all()
 
   def testRoute(self):
         # This test works just fine

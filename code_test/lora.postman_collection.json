@@ -1,0 +1,378 @@
+{
+	"id": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+	"name": "lora",
+	"description": "",
+	"order": [
+		"e5b6b956-7a11-a94b-6c20-2819c05e95d8",
+		"79ab5c7c-8931-a993-fc4e-f5f2dee1fdbb",
+		"2e80ebbe-0471-72d1-be91-daec46b2c3ae",
+		"f4d9e526-142e-8702-d58c-88de1783b865",
+		"309353f3-fffe-a0bd-e4f8-5214489caaa5",
+		"16d1b3c8-021e-b70d-9c1f-f9b0c1d733d6",
+		"97da8c79-8a27-6688-e679-06f63783f97d",
+		"af941656-1910-2cf0-cbd4-f77f2c680d24",
+		"f58399c3-2b3b-f84a-cea7-e2d01f243e54",
+		"43c47b1e-be4b-3adf-52cc-ad2918a0f727",
+		"cb6de03d-1af1-32b2-53ed-c1137677c7ee"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1630840263804,
+	"owner": "1949458",
+	"public": false,
+	"requests": [
+		{
+			"id": "16d1b3c8-021e-b70d-9c1f-f9b0c1d733d6",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDAyNzgsImlhdCI6MTYzMDg1Mzg3OCwic3ViIjoxNX0.Haby7HLVG_Nr7lB9Ke6nhsNWlkvWS1mo_l3x9YfRQG4\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDAyNzgsImlhdCI6MTYzMDg1Mzg3OCwic3ViIjoxNX0.Haby7HLVG_Nr7lB9Ke6nhsNWlkvWS1mo_l3x9YfRQG4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630855483688,
+			"name": "http://127.0.0.1:5000/users/me",
+			"description": "delete me",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": []
+		},
+		{
+			"id": "2e80ebbe-0471-72d1-be91-daec46b2c3ae",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDAyNzgsImlhdCI6MTYzMDg1Mzg3OCwic3ViIjoxNX0.Haby7HLVG_Nr7lB9Ke6nhsNWlkvWS1mo_l3x9YfRQG4\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDAyNzgsImlhdCI6MTYzMDg1Mzg3OCwic3ViIjoxNX0.Haby7HLVG_Nr7lB9Ke6nhsNWlkvWS1mo_l3x9YfRQG4",
+					"description": ""
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630855106292,
+			"name": "http://127.0.0.1:5000/users/me",
+			"description": "get me",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": []
+		},
+		{
+			"id": "309353f3-fffe-a0bd-e4f8-5214489caaa5",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDI3NzAsImlhdCI6MTYzMDg1NjM3MCwic3ViIjoyMn0.oYPjKpiAlwu-rHPKHRwymKD2KCq_sppjKmu5RSWAFqM\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDI3NzAsImlhdCI6MTYzMDg1NjM3MCwic3ViIjoyMn0.oYPjKpiAlwu-rHPKHRwymKD2KCq_sppjKmu5RSWAFqM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630856418396,
+			"name": "http://127.0.0.1:5000/users/",
+			"description": "get all",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": []
+		},
+		{
+			"id": "43c47b1e-be4b-3adf-52cc-ad2918a0f727",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/prices/short",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630889221268,
+			"name": "http://127.0.0.1:5000/prices/short",
+			"description": "get <3 months",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": [],
+			"rawModeData": "{ \"ticker\": \"000001.CN\", \"day\": \"2018-02-26\", \"time_window\": \"91\" }"
+		},
+		{
+			"id": "79ab5c7c-8931-a993-fc4e-f5f2dee1fdbb",
+			"headers": "Content-Type: application/json\n//jwt_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5MzQxNjAsImlhdCI6MTYzMDg0Nzc2MCwic3ViIjoxNX0.x8d-vnQE_2gq9k9gdX6u9GROjhivkNBkRJ_nncm-iM0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "jwt_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5MzQxNjAsImlhdCI6MTYzMDg0Nzc2MCwic3ViIjoxNX0.x8d-vnQE_2gq9k9gdX6u9GROjhivkNBkRJ_nncm-iM0",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630853539010,
+			"name": "http://127.0.0.1:5000/users/login",
+			"description": "login",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": [],
+			"rawModeData": "{ \"email\": \"testando@mail.com\", \"password\": \"senhatestando\", \"name\": \"nome de teste\" }"
+		},
+		{
+			"id": "97da8c79-8a27-6688-e679-06f63783f97d",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDI3NzAsImlhdCI6MTYzMDg1NjM3MCwic3ViIjoyMn0.oYPjKpiAlwu-rHPKHRwymKD2KCq_sppjKmu5RSWAFqM\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDI3NzAsImlhdCI6MTYzMDg1NjM3MCwic3ViIjoyMn0.oYPjKpiAlwu-rHPKHRwymKD2KCq_sppjKmu5RSWAFqM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/17",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630856446111,
+			"name": "http://127.0.0.1:5000/users/17",
+			"description": "get one",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": []
+		},
+		{
+			"id": "af941656-1910-2cf0-cbd4-f77f2c680d24",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/prices/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630858148136,
+			"name": "http://127.0.0.1:5000/prices/",
+			"description": "get all",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": []
+		},
+		{
+			"id": "cb6de03d-1af1-32b2-53ed-c1137677c7ee",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/prices/short",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:5000/prices/long",
+			"description": "get >3 months",
+			"descriptionFormat": "html",
+			"time": 1630889239171,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"ticker\": \"000001.CN\", \"day\": \"2018-02-26\", \"time_window\": \"91\" }"
+		},
+		{
+			"id": "e5b6b956-7a11-a94b-6c20-2819c05e95d8",
+			"headers": "Content-Type: application/json\n//jwt_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5MzQxNjAsImlhdCI6MTYzMDg0Nzc2MCwic3ViIjoxNX0.x8d-vnQE_2gq9k9gdX6u9GROjhivkNBkRJ_nncm-iM0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "jwt_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5MzQxNjAsImlhdCI6MTYzMDg0Nzc2MCwic3ViIjoxNX0.x8d-vnQE_2gq9k9gdX6u9GROjhivkNBkRJ_nncm-iM0",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1630848308849,
+			"name": "http://localhost:5000/users/",
+			"description": "create user",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"responses": [],
+			"rawModeData": "{ \"email\": \"testando@mail.com\", \"password\": \"senhatestando\", \"name\": \"nome de teste\" }"
+		},
+		{
+			"id": "f4d9e526-142e-8702-d58c-88de1783b865",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDAyNzgsImlhdCI6MTYzMDg1Mzg3OCwic3ViIjoxNX0.Haby7HLVG_Nr7lB9Ke6nhsNWlkvWS1mo_l3x9YfRQG4\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDAyNzgsImlhdCI6MTYzMDg1Mzg3OCwic3ViIjoxNX0.Haby7HLVG_Nr7lB9Ke6nhsNWlkvWS1mo_l3x9YfRQG4",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/users/me",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:5000/users/me",
+			"description": "put me",
+			"descriptionFormat": "html",
+			"time": 1630854991430,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " { \"name\": \"novo nome\" }"
+		},
+		{
+			"id": "f58399c3-2b3b-f84a-cea7-e2d01f243e54",
+			"headers": "api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8\n",
+			"headerData": [
+				{
+					"key": "api_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MzA5NDQzOTAsImlhdCI6MTYzMDg1Nzk5MCwic3ViIjoyM30.ZS6qIGf6JIEDZR5J0JcKU7rHlY6M3pbkL4pw_Wx06c8",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/prices/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a61994e9-ca62-28c8-8809-8929d65cc5f6",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:5000/prices/id",
+			"description": "get one",
+			"descriptionFormat": "html",
+			"time": 1630858269670,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

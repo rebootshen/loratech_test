@@ -1,8 +1,8 @@
 from flask import Flask
 
 from .config import app_config
-from .models import bcrypt
-from createtable import db
+from .models import db, bcrypt
+#from createtable import db
 
 from .views.UserView import user_api as user_blueprint
 from .views.PriceView import price_api as price_blueprint
